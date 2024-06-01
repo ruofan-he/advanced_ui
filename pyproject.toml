@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "BI"
+version = "0.1.0"
+description = "some"
+authors = ["Ruofan He <67919467+ruofan-he@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+jupyter = "^1.0.0"
+matplotlib = "^3.9.0"
+ipyfilechooser = "^0.6.0"
+plotly = "^5.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
